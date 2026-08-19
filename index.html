@@ -278,12 +278,19 @@
       <div class="contact-line"><span class="k">Phone</span><a href="tel:+254796530060">0796 530 060</a></div>
       <div class="contact-line"><span class="k">Based in</span><span>Kenya</span></div>
     </div>
-    <form class="contact-form" onsubmit="return false;">
-      <input type="text" placeholder="Your name" required>
-      <input type="email" placeholder="Your email" required>
-      <textarea rows="4" placeholder="Tell me about your project"></textarea>
-      <button type="submit" class="btn-cut">Send message</button>
-    </form>
+    <div class="contact-form-wrap">
+      <iframe
+        id="JotFormIFrame-262301552751046"
+        title="Contact form"
+        onload="window.parent.scrollTo(0,0)"
+        allowtransparency="true"
+        allow="geolocation; microphone; camera; fullscreen"
+        src="https://form.jotform.com/262301552751046"
+        frameborder="0"
+        style="width:100%; min-height:520px; border:none;"
+        scrolling="no">
+      </iframe>
+    </div>
   </div>
 </section>
 
@@ -296,6 +303,12 @@
   <div class="footer-bottom">© 2026 Brian Ndungu. All rights reserved.</div>
 </footer>
 
+<script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
+<script>
+  if (window.jotformEmbedHandler) {
+    jotformEmbedHandler("iframe[id='JotFormIFrame-262301552751046']", "https://form.jotform.com/");
+  }
+</script>
 <script src="script.js"></script>
 
 <a href="https://wa.me/254796530060" target="_blank" rel="noopener" class="whatsapp-btn" aria-label="Chat with Brian on WhatsApp">
