@@ -313,6 +313,15 @@ h1,h2,h3{font-family:var(--font-head);}
 .contact-line a{color:var(--green);}
 .contact-line a:hover{text-decoration:underline;}
 
+.contact-form-wrap{
+  border:1px solid var(--border);
+  background:var(--panel);
+  border-radius:6px;
+  overflow:hidden;
+  box-shadow:0 0 0 1px rgba(46,230,166,0.08);
+}
+.contact-form-wrap iframe{display:block;}
+
 .contact-form{display:flex; flex-direction:column; gap:16px;}
 .contact-form input,
 .contact-form textarea{
